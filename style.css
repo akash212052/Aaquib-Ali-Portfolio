@@ -180,8 +180,9 @@ body {
 .btn:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-    stroke-dashoffset: -480;
-    color: #ab43fa;
+    background-color: #ab43fa;
+    color: #fff;
+
 }
 
 .btn:hover::after {
@@ -383,6 +384,21 @@ body {
 
 .feature-box__image {
     height: 11.5rem;
+}
+@media only screen and (min-width: 673px) {
+    .exp{
+        display: flex;
+        align-items: center;
+    }
+    .exp .feature-box__image {
+        height: auto;
+        width: 170%;
+    }
+    .exp .col-1-of-4{
+        margin-right: 6rem;
+        position: relative;
+        right: 3px;
+    }
 }
 
 .feature-box:hover {
