@@ -7,7 +7,7 @@
 [![GitHub license](https://img.shields.io/github/license/Design-and-Code/Hacktoberfest-practice)](https://github.com/AaquibAli/Aaquib-Ali-Portfolio/blob/main/LICENSE)
 
 
-## What is HacktoberFest-Practice?
+## What is HacktoberFest
 > #### This is a Practise Repo for you awesome people, to practise Pull requests by doing easy stuff. and also Showcase your names in this HacktoberFest Practise Repo, and let your sweet 💖 memory embbed here.
 
 ## Contribution Guidelines🏗
@@ -78,5 +78,18 @@ git push -u origin <your_branch_name>
 **15** Voila! You have made a PR to the Projects-showcase 💥 . Wait for your submission to be accepted and your PR to be merged.
 
   
-#### Note : 
-## Don't forget to ⭐ this repositiory. 
+---------
+
+```javascript
+
+if (isAwesome) {
+    // thanks in advance :p
+    starThisRepository();
+}
+
+```
+
+-----------
+
+[![GitHub followers](https://img.shields.io/github/followers/AaquibAli.svg?label=Follow%20@AaquibAli&style=social)](https://github.com/AaquibAli/) [![Twitter Follow](https://img.shields.io/twitter/follow/ali_aaquib_.svg?style=social)](https://twitter.com/ali_aaquib_)
+
