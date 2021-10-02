@@ -173,17 +173,20 @@ body {
     font-size: 1.6rem;
     border: none;
     cursor: pointer;
-    
+    border: 1px solid #ab43fa;
+    outline: none;
 }
 
 .btn:hover {
     transform: translateY(-0.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    stroke-dashoffset: -480;
+    color: #ab43fa;
 }
 
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
-    color: #999;
+    color: white;
     opacity: 0;
 }
 
@@ -236,7 +239,7 @@ body {
     font-size: 1.6rem;
     color: #5643fa;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: white;
     border-bottom: 0.2rem solid #5643fa;
     padding: .3rem;
     transition: all .2s;
@@ -244,7 +247,6 @@ body {
 
 .btn-text:hover {
     background-color: #5643fa;
-    color: #fff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     transform: translateY(-0.2rem);
 }
