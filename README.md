@@ -8,7 +8,7 @@
 
 
 ## What is HacktoberFest
-> #### This is a Practise Repo for you awesome people, to practise Pull requests by doing easy stuff. and also Showcase your names in this HacktoberFest Practise Repo, and let your sweet 💖 memory embbed here.
+> #### Hacktoberfest, in its 8th year, is a month-long celebration of open source software run by DigitalOcean. During the month of October, we invite you to join open-source software enthusiasts, beginners, and the developer community by contributing to open-source projects. You can do this in a variety of ways:
 
 ## Contribution Guidelines🏗
 
