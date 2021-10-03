@@ -159,7 +159,6 @@ body {
         transform: translate(0);
     }
 }
-
 .btn,
 .btn:link,
 .btn:visited {
@@ -173,7 +172,16 @@ body {
     font-size: 1.6rem;
     border: none;
     cursor: pointer;
-    
+    border: 1px solid #ab43fa;
+    outline: none;
+    border: 1px solid white;
+    box-shadow: 0px 2px 0 white, 2px 4px 6px #eee;
+    font-weight: 900;
+    letter-spacing: 1px;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+    overflow: hidden;
+    position: relative;
 }
 
 .btn:hover {
@@ -181,12 +189,24 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
     background-color: #ab43fa;
     color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+
+    text-decoration: none;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
 }
 
+.btn span {
+    z-index: 20;
+  }
 .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
-    color: #999;
+    color: white;
     opacity: 0;
+    left: 120%;
+    -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .btn:active,
@@ -226,6 +246,19 @@ body {
     left: 0;
     z-index: -1;
     transition: all .4s;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: .2;
+    position: absolute;
+    top: -50px;
+    width: 50px;
+    -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    z-index: -10;
 }
 
 .btn--animated {
@@ -238,7 +271,7 @@ body {
     font-size: 1.6rem;
     color: #5643fa;
     display: inline-block;
-    text-decoration: none;
+    text-decoration: white;
     border-bottom: 0.2rem solid #5643fa;
     padding: .3rem;
     transition: all .2s;
@@ -246,7 +279,6 @@ body {
 
 .btn-text:hover {
     background-color: #5643fa;
-    color: #fff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
     transform: translateY(-0.2rem);
 }
